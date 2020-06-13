@@ -1,6 +1,6 @@
 # JavaScriptProject
 
-// how to create and loop thru array
+##// how to create and loop thru array
 var boxes = document.querySelectorAll('.box');
 
 Array.from(boxes).forEach(cur => cur.style.backgroundColor = 'dodgerblue');
