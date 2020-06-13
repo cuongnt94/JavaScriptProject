@@ -17,7 +17,7 @@ for(var cur of boxesArr6)
     
 }
 
-// how to create and loop thru map
+### how to create and loop thru map
 const question = new Map();
 
 question.set('question', 'What is the official name of the latest major JavaScript version?');
@@ -36,7 +36,7 @@ for (let [key, value] of question.entries()) {
     
 }
 
-// example of class
+### example of class
 class Person6 {
     constructor (name, yearOfBirth, job) {
     
