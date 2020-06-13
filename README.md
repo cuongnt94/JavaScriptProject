@@ -39,9 +39,13 @@ for (let [key, value] of question.entries()) {
 // example of class
 class Person6 {
     constructor (name, yearOfBirth, job) {
+    
         this.name = name;
+        
         this.yearOfBirth = yearOfBirth;
+        
         this.job = job;
+        
     }
     
     calculateAge() {
