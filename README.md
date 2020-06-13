@@ -1,6 +1,12 @@
 # JavaScriptProject
 
 ###  how to create and loop thru array
+
+const allStreets = [new Street('Ocean Avenue', 1999, 1.1, 4),
+                   new Street('Evergreen Street', 2008, 2.7, 2)];
+                   
+allStreets.map(el => el.length);
+
 var boxes = document.querySelectorAll('.box');
 
 Array.from(boxes).forEach(cur => cur.style.backgroundColor = 'dodgerblue');
