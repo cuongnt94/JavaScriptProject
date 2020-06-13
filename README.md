@@ -2,9 +2,11 @@
 
 // how to create and loop thru array
 var boxes = document.querySelectorAll('.box');
+
 Array.from(boxes).forEach(cur => cur.style.backgroundColor = 'dodgerblue');
 
 var boxesArr6 = Array.from(boxes);
+
 for(var cur of boxesArr6)
 {
     if(cur.className.includes('blue'))
