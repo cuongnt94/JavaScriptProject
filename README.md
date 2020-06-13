@@ -61,3 +61,23 @@ class Person6 {
 const john6 = new Person6('John', 1990, 'teacher');
 
 Person6.greeting();
+
+### how to get a total sum from array int
+
+var array1 = [1,2,3,4,5];
+
+const reducer = (accumulator, val) => accumulator + val;
+
+console.log(array1.reduce(reducer));
+
+// get the ratio of each element over the total sum
+
+function calc(arr) {
+    
+    const sum = arr.reduce((prev, cur, index) => prev + cur, 0);
+    
+    return [sum, sum / arr.length];
+    
+}
+
+
