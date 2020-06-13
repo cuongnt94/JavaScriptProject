@@ -29,9 +29,11 @@ question.set(2, 'ES6');
 console.log(question.get('question'));
 
 for (let [key, value] of question.entries()) {
+
     if (typeof(key) === 'number') {
         console.log(`Answer ${key}: ${value}`);
     }
+    
 }
 
 // example of class
