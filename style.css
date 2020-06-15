@@ -276,3 +276,12 @@ h2 {
 .unpaid .item__percentage { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1); }
 .unpaid:hover .item__description { font-weight: 900; }
 
+.videowrapper { 
+    float: none;
+    clear: both;
+    width: 700px;
+    position: absolute;
+    padding-top: 25px;
+    margin: 0 auto;
+    max-width: 100%;
+}
